@@ -24,11 +24,6 @@ body{
     margin: 5.5rem auto;
 }
 
-/* main{
-    display: grid;
-    place-content: center;
-} */
-
 .heading{
     text-align: center;
     color: var(--v-dark-blue);
@@ -104,6 +99,10 @@ body{
 }
 
 
+small{
+    color: var(--gray-blue);
+}
+
 
 /* footer */
 .attribution {
@@ -137,6 +136,11 @@ body{
 
     .card-layout .card{
         width: 300px;
-        height: 200px;
+        height: 220px;
+        padding: 1.675rem;
+    }
+
+    small{
+        font-size: 0.75rem;
     }
 }
